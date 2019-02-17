@@ -4,7 +4,8 @@
   "description": "Starter Template for JavaScript Application",
   "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/mihailvasilchenko/jsstarter/issues"
   },
-  "homepage": "https://github.com/mihailvasilchenko/jsstarter#readme"
+  "homepage": "https://github.com/mihailvasilchenko/jsstarter#readme",
+  "devDependencies": {
+    "eslint": "^5.14.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3"
+  }
 }
