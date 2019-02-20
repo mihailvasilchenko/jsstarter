@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./config */ \"./src/config.js\");\n\n\nconsole.log(`App ${_config__WEBPACK_IMPORTED_MODULE_0__[\"default\"]} working`);\n\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./config */ \"./src/config.js\");\n\nconsole.log(\"App \".concat(_config__WEBPACK_IMPORTED_MODULE_0__[\"default\"], \" working\"));\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _con
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nconst version = '0.1';\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (version);\n\n\n//# sourceURL=webpack:///./src/config.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nvar version = '0.1';\n/* harmony default export */ __webpack_exports__[\"default\"] = (version);\n\n//# sourceURL=webpack:///./src/config.js?");
 
 /***/ })
 
