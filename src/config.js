@@ -1,7 +1,3 @@
-const version = '0.1';
+const version = '1.0.0';
 
-function sum(a, b) {
-  return a + b;
-}
-
-export { version, sum };
+export default version;

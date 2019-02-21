@@ -1,3 +1,4 @@
-import { version } from './config';
+/* eslint-env browser */
+import version from './config';
 
-console.log(`App ${version} working`);
+document.body.innerHTML = `<h1>App ${version} is working</h1>`;
