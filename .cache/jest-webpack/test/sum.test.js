@@ -1,3 +1,4 @@
+module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -81,32 +82,42 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/app.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/app.js":
-/*!********************!*\
-  !*** ./src/app.js ***!
-  \********************/
+/***/ "./test/sum.test.js":
+/*!**************************!*\
+  !*** ./test/sum.test.js ***!
+  \**************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./config */ \"./src/config.js\");\n\nconsole.log(\"App \".concat(_config__WEBPACK_IMPORTED_MODULE_0__[\"version\"], \" working\"));\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/config */ 1);\n/* harmony import */ var _src_config__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_src_config__WEBPACK_IMPORTED_MODULE_0__);\n/* global test, expect */\n\ntest('adds 1 + 2 to equal 3', function () {\n  expect(Object(_src_config__WEBPACK_IMPORTED_MODULE_0__[\"sum\"])(1, 2)).toBe(3);\n});\n\n//# sourceURL=webpack:///./test/sum.test.js?");
 
 /***/ }),
 
-/***/ "./src/config.js":
-/*!***********************!*\
-  !*** ./src/config.js ***!
-  \***********************/
-/*! exports provided: version, sum */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ 0:
+/*!******************************************!*\
+  !*** entry reference ./test/sum.test.js ***!
+  \******************************************/
+/*! no exports provided */
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"version\", function() { return version; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"sum\", function() { return sum; });\nvar version = '0.1';\n\nfunction sum(a, b) {\n  return a + b;\n}\n\n\n\n//# sourceURL=webpack:///./src/config.js?");
+eval("module.exports = {\n  \"f679153e492da9284d2d48c99acbed485571ad66\": function() {return __webpack_require__('./test/sum.test.js');}\n};\nmodule.exports[\"f679153e492da9284d2d48c99acbed485571ad66\"]();\n\n\n//# sourceURL=webpack:///entry_reference_./test/sum.test.js?");
+
+/***/ }),
+
+/***/ 1:
+/*!**************************************************************************!*\
+  !*** reference ./src/config.js.f389f9426365643347f3979631f47b306adbbe15 ***!
+  \**************************************************************************/
+/*! no exports provided */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"./../src/config.js\")[\"f389f9426365643347f3979631f47b306adbbe15\"]();\n\n//# sourceURL=webpack:///reference_./src/config.js.f389f9426365643347f3979631f47b306adbbe15?");
 
 /***/ })
 

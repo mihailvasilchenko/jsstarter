@@ -1,3 +1,4 @@
+module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -81,32 +82,31 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/app.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/app.js":
-/*!********************!*\
-  !*** ./src/app.js ***!
-  \********************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./config */ \"./src/config.js\");\n\nconsole.log(\"App \".concat(_config__WEBPACK_IMPORTED_MODULE_0__[\"version\"], \" working\"));\n\n//# sourceURL=webpack:///./src/app.js?");
-
-/***/ }),
-
-/***/ "./src/config.js":
-/*!***********************!*\
-  !*** ./src/config.js ***!
-  \***********************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./src/config.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4!./src/config.js ***!
+  \***************************************************************/
 /*! exports provided: version, sum */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"version\", function() { return version; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"sum\", function() { return sum; });\nvar version = '0.1';\n\nfunction sum(a, b) {\n  return a + b;\n}\n\n\n\n//# sourceURL=webpack:///./src/config.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"version\", function() { return version; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"sum\", function() { return sum; });\nvar version = '0.1';\n\nfunction sum(a, b) {\n  return a + b;\n}\n\n\n\n//# sourceURL=webpack:///./src/config.js?./node_modules/babel-loader/lib??ref--4");
+
+/***/ }),
+
+/***/ 0:
+/*!***************************************!*\
+  !*** entry reference ./src/config.js ***!
+  \***************************************/
+/*! no exports provided */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = {\n  \"f389f9426365643347f3979631f47b306adbbe15\": function() {return __webpack_require__('./node_modules/babel-loader/lib/index.js?!./src/config.js');}\n};\n\n\n//# sourceURL=webpack:///entry_reference_./src/config.js?");
 
 /***/ })
 
